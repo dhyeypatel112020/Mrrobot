@@ -1,0 +1,11 @@
+step 1 - First go to terminal and go to the downloaded configration file and do this cammands sudo openvpn "abc.ovpn"// you can change abc.ovpn to your file name
+
+step 2 - Second start the server and join that server of mrrobot from terminal by typing IP address in the browser
+
+step 3 - so for the third step go to the end of the ip address and type /robots.txt
+
+step 4 - then you have to the end of the IP address again and type /key-1-of-3.txt
+
+now there you will find the key
+
+key 1 :073403c8a58a1f80d943455fb30724b9

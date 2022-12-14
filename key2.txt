@@ -1,0 +1,30 @@
+step 1 - step one for finding the key 2 is to IP address/robots.txt then there will be a file named fsocity.dic
+
+step 2 - again go to the end of the IP address and type /fsocity.dic and then download that file
+
+// go to download dir first
+step 3 - sort the file and delete the duplicate files by typing sort fsocity.dic | uniq > mrrobot.txt
+
+//this is the login page and we have to use bruteforce to fine the username and password and type it this page
+step 4 - then go to IP address and then /0000 and then click login button
+
+step 5(username) - we found the username by searching about mr robot series and the main protogonist who played in this series was elliot alderson so therefore the username is elliot
+
+step 6 - now the password is in the txt file mrrobot.txt and there are 11000 + password so we have to guess the correct from there using bruteforce
+
+step 7 - so for doing bruteforce attack open burpsuite and set all the parameters.
+
+step 8 - wpscan --password-attack xmlrpc -U elliot -P /home/kali/Downloads/mrrobot.txt url http://10.10.137.147/ -t 100
+
+step 9 - bruteforce attck - type $ hydra -1 elliot -P /home/kali/Downloads/fsocity.dic IP address http-post-form "/wp-login: Log="USER&pwd= PASS‘ : The password you entered for the username elliot is incorrect" -t 25
+
+step 10 - wait........... then you will get the correct password which is ER28-0652
+
+step 11 - after logining from the login  get the shell in terminal and then get the robot user then go to 2-of-3.txt
+
+KEY 2 :822c73956184f694993bede3eb39f959
+
+
+
+
+
